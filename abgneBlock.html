@@ -8,7 +8,7 @@
 
 		<title>交大天光</title>
 		
-        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+        <script src="jquery-1.11.0.min.js"></script>
  		<script type="text/javascript">
 		$(function()
 		{
@@ -51,17 +51,23 @@
 				switch($this.index())
 				{
 					case 0: 
-						{	$('#text').find('h1').html('黃國昌：');
+						{	
+							$('#text2').find('h1').html('主講日期 2014.4.24');
+							$('#text').find('h1').html('黃國昌：');
 							$('#text').find('p').html('我們的行動不會因接下來的司法程序而中斷，「轉守為攻、出關播種」絕非只是離開議場時的口號，而是繼續與人民攜手努力奪回國家的莊嚴承諾。'); 
 							break;
 						}
 					case 1: 
-						{ 	$('#text').find('h1').html('邱文聰：');
+						{ 	
+							$('#text2').find('h1').html('主講日期 2014.4.24');
+							$('#text').find('h1').html('邱文聰：');
 							$('#text').find('p').html('造成這次服貿爭議的原因，在於政府黑箱，又希望人民照單接受，如果今天要來擬定一個可以監督這樣的法案的條例，這就是我們所秉持的。');
 							break;
 						}
 					case 2: 
-						{ 	$('#text').find('h1').html('林秀幸：');
+						{ 	
+							$('#text2').find('h1').html('主持人');
+							$('#text').find('h1').html('林秀幸：');
 							$('#text').find('p').html('經過三一八學運，台灣社會有如經歷一次八級地震，將徹底改變台灣的意義、政治和社會的地貌。');
 							break;
 						}
@@ -122,7 +128,11 @@
 				<li class = "a"><a target="_blank" href="#"><img src="images/01.jpg"></a></li>
 				<li class = "a"><a target="_blank" href="#"><img src="images/02.gif"></a></li>
 			</ul>
-		</div>	
+			</div>	
+		
+			<div id="text2">
+				<h1>主講日期 2014.4.24</h1>
+			</div>
 		
 	</body>
 </html>

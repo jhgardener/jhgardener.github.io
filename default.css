@@ -292,3 +292,14 @@ hr {
 {
 	text-indent: 10%;
 }
+#text2 
+{
+	text-align: left;
+	z-index:2;
+	position:absolute;
+	top:90%;
+	right:0;
+	padding: 0 15% 0 0;
+	font-family: DFKai-sb;
+	font-size:60%
+}
